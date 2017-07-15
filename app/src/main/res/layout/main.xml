@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000000"
+	>
+
+    <TextView
+        android:id="@+id/angle"
+      	android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:text="方位为：" />
+
+    <TextView
+        android:id="@+id/longtitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经纬度：" />
+
+    <TableRow
+        android:id="@+id/sms_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/sms_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送" />
+
+        <EditText
+            android:id="@+id/sms_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12" />
+
+    </TableRow>
+
+<ImageView
+    android:id="@+id/znzImage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitCenter"
+    android:src="@drawable/compass" />
+
+</LinearLayout>

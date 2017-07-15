@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/li/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/li/Downloads/zhinanzheng1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_0ab21a789129e5d4caae32f9ea3e9ab1927058cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/li/Downloads/zhinanzheng1/app/libs/mysql-connector-java-5.0.8-bin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7b9bfb6c4e4885660378a9c13330915c321f6cca">
+        <dex dex="/Users/li/Downloads/zhinanzheng1/app/build/intermediates/pre-dexed/debug/mysql-connector-java-5.0.8-bin_bfcf8f3010cd8e98203a7269cbee26df562c56de.jar" />
+    </item>
+
+</items>
